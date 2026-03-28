@@ -1,0 +1,15 @@
+{
+    "name": "Docusaurus Blog Dev",
+    "build": { "dockerfile": "../Dockerfile" },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "oderwat.indent-rainbow"
+        ]
+      }
+    },
+    "remoteUser": "node",
+    "forwardPorts": [3000]
+  }
