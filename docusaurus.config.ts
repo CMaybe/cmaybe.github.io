@@ -142,6 +142,10 @@ const config: Config = {
               href: 'https://www.linkedin.com/in/Jaegyeom-kim-185b8a2a4/',
             },
             {
+              label: 'Buy Me a Coffee',
+              href: 'https://buymeacoffee.com/cmaybe',
+            },
+            {
               label: 'Modern Robotics demo',
               href: 'https://cmaybe.github.io/modern-robotics-wasm/',
             },

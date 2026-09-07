@@ -44,6 +44,7 @@ const interests = [
 const socialLinks = [
   { label: 'GitHub', href: 'https://github.com/CMaybe' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/Jaegyeom-kim-185b8a2a4/' },
+  { label: 'Buy Me a Coffee', href: 'https://buymeacoffee.com/cmaybe' },
   { label: 'Blog', href: '/blog' },
 ];
 
