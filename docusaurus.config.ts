@@ -66,6 +66,10 @@ const config: Config = {
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -75,6 +79,21 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      {
+        name: 'keywords',
+        content:
+          'robotics, robot control, motion planning, model predictive control, optimization, autonomous systems',
+      },
+      ...(process.env.GOOGLE_SITE_VERIFICATION
+        ? [
+          {
+            name: 'google-site-verification',
+            content: process.env.GOOGLE_SITE_VERIFICATION,
+          },
+        ]
+        : []),
+    ],
     colorMode: {
       respectPrefersColorScheme: true,
     },

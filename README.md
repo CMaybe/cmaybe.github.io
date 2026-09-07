@@ -71,3 +71,16 @@ publishes `build/` to the repository's `gh-pages` branch with `GITHUB_TOKEN`.
 
 For GitHub Pages, configure this repository's Pages source to deploy from the
 `gh-pages` branch. No local deployment command or SSH key is required.
+
+## Search engine indexing
+
+Each deployment generates `sitemap.xml`; crawler access and its location are
+declared in `static/robots.txt`. Submit
+<https://cmaybe.github.io/sitemap.xml> in Google Search Console after adding
+the site property.
+
+To verify the property with Google's HTML meta-tag method, create a repository
+Actions secret named `GOOGLE_SITE_VERIFICATION`. Set its value to the token from
+the `content` attribute Google supplies (not the full `<meta>` tag). The deploy
+workflow adds the tag to the production site without exposing the token in the
+repository. After the next deployment, select **Verify** in Search Console.
