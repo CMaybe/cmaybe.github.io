@@ -1,41 +1,73 @@
-# Website
+# JaeGyeom Kim
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Personal technical blog and project portfolio for robotics software work in
+model-based control, motion planning, optimization, and real-time systems.
 
-## Installation
+The site is built with [Docusaurus](https://docusaurus.io/) and published at
+<https://cmaybe.github.io>.
 
-```bash
-yarn
+## Highlights
+
+- Technical notes on manipulation, AMR navigation, MPC/NMPC, and real-time robotics
+- Selected project links, including Optimal Parking, MPCC, and Convex MPC
+- An embedded [Modern Robotics WASM](https://cmaybe.github.io/modern-robotics-wasm/)
+	demo for interactive forward/inverse kinematics, planning, and dynamics
+
+## Requirements
+
+- Node.js 20 or newer
+- npm
+
+## Local development
+
+Install dependencies and start the development server:
+
+```sh
+npm ci
+npm start
 ```
 
-## Local Development
+The site is served at <http://localhost:3000>. Docusaurus reloads the page as
+source files change.
 
-```bash
-yarn start
+## Build and preview
+
+Create the production site:
+
+```sh
+npm run build
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+The generated static site is written to `build/`. Preview that output locally:
 
-## Build
-
-```bash
-yarn build
+```sh
+npm run serve
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Use this type check when changing TypeScript or React code:
+
+```sh
+npm run typecheck
+```
+
+## Content
+
+- Write posts in `blog/` using Markdown or MDX.
+- Add authors in `blog/authors.yml` and tags in `blog/tags.yml` before referencing
+	them from post front matter.
+- Edit documentation pages in `docs/`; sidebar navigation lives in `sidebars.ts`.
+- The homepage is implemented in `src/pages/index.tsx` and styled by
+	`src/pages/index.module.css`.
+
+The Modern Robotics post embeds the independently deployed web application with
+an iframe. Keep the application deployment separate from this repository, then
+reference its public Pages URL from the post.
 
 ## Deployment
 
-Using SSH:
+Pushing to `main` triggers [.github/workflows/deploy.yaml](.github/workflows/deploy.yaml).
+The workflow installs dependencies with `npm ci`, runs `npm run build`, and
+publishes `build/` to the repository's `gh-pages` branch with `GITHUB_TOKEN`.
 
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+For GitHub Pages, configure this repository's Pages source to deploy from the
+`gh-pages` branch. No local deployment command or SSH key is required.
