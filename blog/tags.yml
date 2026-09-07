@@ -1,3 +1,23 @@
+robotics:
+  label: Robotics
+  permalink: /robotics
+  description: Robot software, systems, and experiments.
+
+kinematics:
+  label: Kinematics
+  permalink: /kinematics
+  description: Forward and inverse kinematics for robots.
+
+webassembly:
+  label: WebAssembly
+  permalink: /webassembly
+  description: Native-performance software in the browser.
+
+motion-planning:
+  label: Motion Planning
+  permalink: /motion-planning
+  description: Algorithms for finding feasible robot motion.
+
 facebook:
   label: Facebook
   permalink: /facebook

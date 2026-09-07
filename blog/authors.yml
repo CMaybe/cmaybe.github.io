@@ -1,3 +1,13 @@
+endi:
+  name: JaeGyeom Kim
+  title: Robotics Software Engineer
+  url: https://github.com/CMaybe
+  image_url: https://github.com/CMaybe.png
+  page: true
+  socials:
+    github: CMaybe
+    linkedin: jaegyeom-kim-185b8a2a4
+
 yangshun:
   name: Yangshun Tay
   title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd

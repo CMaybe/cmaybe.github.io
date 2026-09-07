@@ -1,0 +1,33 @@
+---
+slug: modern-robotics-wasm
+title: Modern Robotics in the Browser
+authors: [endi]
+tags: [robotics, kinematics, webassembly, motion-planning]
+description: A WebGL and WebAssembly playground for forward kinematics, inverse kinematics, planning, and dynamics.
+---
+
+Modern robotics algorithms become easier to reason about when their inputs and
+outputs are visible. This project puts a C++ kinematics and control stack in the
+browser, so a robot can be inspected, moved, and planned for without a local
+simulation setup.
+
+<!-- truncate -->
+
+<iframe
+  src="https://cmaybe.github.io/modern-robotics-wasm/"
+  title="Modern Robotics WASM interactive viewer"
+  style={{width: '100%', height: '760px', border: 0}}
+/>
+
+The interactive viewer supports UR5 and Franka Research 3 arms. Joint sliders
+drive forward kinematics, while the end-effector gizmo supplies targets to the
+inverse-kinematics solver. The same interface also exposes collision capsules,
+manipulability ellipsoids, motion planning with RRT-Connect, and Newton-Euler
+dynamics.
+
+The computational path remains in C++: Eigen and Sophus implement the
+space-frame Product of Exponentials formulation, Emscripten compiles it to
+WebAssembly, and React with three.js provides the visual interface.
+
+The source and implementation notes are available in the
+[modern-robotics-wasm repository](https://github.com/CMaybe/modern-robotics-wasm).
