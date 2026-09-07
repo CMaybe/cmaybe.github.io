@@ -44,8 +44,8 @@ export default function Home(): ReactNode {
               <p className={styles.kicker}>JAEGYEOM KIM / ROBOTICS SOFTWARE ENGINEER</p>
               <h1>Algorithms that make robots move with intent.</h1>
               <p className={styles.intro}>
-                I build control, motion-planning, and optimization software that carries ideas from
-                equations to reliable machines.
+                I build model-based control, motion-planning, and optimization software for
+                manipulators, mobile robots, and dynamic legged systems.
               </p>
               <div className={styles.actions}>
                 <Link className={styles.primaryAction} to="/blog">
@@ -58,15 +58,15 @@ export default function Home(): ReactNode {
               <dl className={styles.focusList}>
                 <div>
                   <dt>01</dt>
-                  <dd>Motion planning</dd>
+                  <dd>Manipulation and force control</dd>
                 </div>
                 <div>
                   <dt>02</dt>
-                  <dd>MPC and optimal control</dd>
+                  <dd>AMR navigation and NMPC</dd>
                 </div>
                 <div>
                   <dt>03</dt>
-                  <dd>Real-time robot systems</dd>
+                  <dd>Real-time systems and EtherCAT</dd>
                 </div>
               </dl>
             </div>
