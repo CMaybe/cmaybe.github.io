@@ -91,7 +91,7 @@ const config: Config = {
           position: 'left',
           label: 'Modern Robotics',
         },
-        { to: '/blog', label: 'Writing', position: 'left' },
+        { to: '/blog', label: 'Posting', position: 'left' },
         {
           href: 'https://github.com/CMaybe',
           label: 'GitHub',
