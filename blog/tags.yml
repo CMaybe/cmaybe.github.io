@@ -18,6 +18,16 @@ motion-planning:
   permalink: /motion-planning
   description: Algorithms for finding feasible robot motion.
 
+modern-robotics:
+  label: Modern Robotics
+  permalink: /modern-robotics
+  description: Concepts, methods, and intuition behind rigid-body motion and robot kinematics.
+
+screw-theory:
+  label: Screw Theory
+  permalink: /screw-theory
+  description: Twists, screw axes, and the geometry of rigid-body motion.
+
 facebook:
   label: Facebook
   permalink: /facebook

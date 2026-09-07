@@ -1,11 +1,13 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'JaeGyeom Kim',
+  title: 'Jaegyeom Kim',
   tagline: 'Model-based control and real-time robotics systems',
   favicon: 'img/favicon.ico',
 
@@ -43,22 +45,26 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: 'notes',
           sidebarPath: './sidebars.ts',
           editUrl:
             'https://github.com/CMaybe/cmaybe.github.io/tree/main/',
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: 'Modern Robotics',
+          blogSidebarCount: 20,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
           editUrl:
             'https://github.com/CMaybe/cmaybe.github.io/tree/main/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -73,17 +79,17 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'JaeGyeom Kim',
+      title: 'Jaegyeom Kim',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: '/img/profile-bird.jpg',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Notes',
+          label: 'Modern Robotics',
         },
         { to: '/blog', label: 'Writing', position: 'left' },
         {
@@ -101,7 +107,7 @@ const config: Config = {
           items: [
             {
               label: 'Robotics notes',
-              to: '/docs/intro',
+              to: '/notes/intro',
             },
           ],
         },
@@ -114,7 +120,7 @@ const config: Config = {
             },
             {
               label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/jaegyeom-kim-185b8a2a4/',
+              href: 'https://www.linkedin.com/in/Jaegyeom-kim-185b8a2a4/',
             },
             {
               label: 'Modern Robotics demo',
@@ -136,7 +142,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} JaeGyeom Kim.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Jaegyeom Kim.`,
     },
     prism: {
       theme: prismThemes.github,
