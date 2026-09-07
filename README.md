@@ -1,4 +1,4 @@
-# JaeGyeom Kim
+# Jaegyeom Kim
 
 Personal technical blog and project portfolio for robotics software work in
 model-based control, motion planning, optimization, and real-time systems.

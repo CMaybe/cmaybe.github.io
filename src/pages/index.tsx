@@ -7,113 +7,179 @@ import styles from './index.module.css';
 const projects = [
   {
     title: 'Modern Robotics WASM',
-    detail: 'Interactive FK, IK, planning, and dynamics in the browser.',
-    tags: 'C++ / WebAssembly / Three.js',
+    detail: 'Interactive forward/inverse kinematics, trajectory generation, and dynamics in the browser.',
+    tags: 'WebAssembly • C++ • Three.js',
     href: 'https://github.com/CMaybe/modern-robotics-wasm',
     featured: true,
   },
   {
     title: 'Optimal Parking',
-    detail: 'RRT* and trajectory optimization for autonomous parking.',
-    tags: 'Motion Planning / SQP / C++',
+    detail: 'RRT* and trajectory optimization for autonomous parking in constrained environments.',
+    tags: 'Motion Planning • Optimization • C++',
     href: 'https://github.com/CMaybe/Optimal-Parking',
   },
   {
-    title: 'MPCC',
-    detail: 'Model Predictive Contouring Control for autonomous racing.',
-    tags: 'MPC / Optimal Control / C++',
-    href: 'https://github.com/CMaybe/MPCC',
+    title: 'MPC-Driving',
+    detail: 'Model predictive control for autonomous driving and trajectory following.',
+    tags: 'MPC • Optimal Control • C++',
+    href: 'https://github.com/CMaybe/MPC-Driving',
   },
   {
     title: 'Convex MPC',
-    detail: 'Convex model predictive control for legged robots.',
-    tags: 'Legged Robotics / MPC / C++',
+    detail: 'Optimization-based control for dynamic locomotion and real-time robotic motion.',
+    tags: 'Legged Robotics • MPC • C++',
     href: 'https://github.com/CMaybe/Convex-MPC',
   },
+];
+
+const interests = [
+  'Distributed robot systems',
+  'Motion planning',
+  'Model predictive control',
+  'Autonomous vehicles',
+  'Optimization',
+  'Robotics software',
+];
+
+const socialLinks = [
+  { label: 'GitHub', href: 'https://github.com/CMaybe' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/Jaegyeom-kim-185b8a2a4/' },
+  { label: 'Blog', href: '/blog' },
 ];
 
 export default function Home(): ReactNode {
   return (
     <Layout
-      title="Robotics Software Engineer"
-      description="Notes and projects on robotics, planning, control, and real-time systems.">
-      <main>
+      title="Jaegyeom Kim"
+      description="Robotics software engineer portfolio focused on planning, control, and autonomous systems.">
+      <main className={styles.page}>
         <section className={styles.hero}>
-          <div className={styles.heroGrid}>
+          <div className={styles.heroInner}>
             <div className={styles.heroCopy}>
-              <p className={styles.kicker}>JAEGYEOM KIM / ROBOTICS SOFTWARE ENGINEER</p>
-              <h1>Algorithms that make robots move with intent.</h1>
-              <p className={styles.intro}>
-                I build model-based control, motion-planning, and optimization software for
-                manipulators, mobile robots, and dynamic legged systems.
+              <p className={styles.kicker}>Robotics / Planning / Control</p>
+              <h1>Jaegyeom Kim</h1>
+              <p className={styles.subtitle}>
+                Robotics software engineer exploring control, optimization, and autonomous motion.
               </p>
+
+              <p className={styles.intro}>
+                I build systems that connect theory and implementation: trajectory generation,
+                model predictive control, and real-time robotic software for autonomous machines.
+              </p>
+
               <div className={styles.actions}>
-                <Link className={styles.primaryAction} to="/blog">
-                  Read field notes
-                </Link>
-                <a className={styles.secondaryAction} href="https://github.com/CMaybe">
-                  Explore GitHub
+                <a className={styles.primaryAction} href="https://github.com/CMaybe">
+                  View Projects
                 </a>
+                <Link className={styles.secondaryAction} to="/blog">
+                  Read Notes
+                </Link>
               </div>
-              <dl className={styles.focusList}>
-                <div>
-                  <dt>01</dt>
-                  <dd>Manipulation and force control</dd>
-                </div>
-                <div>
-                  <dt>02</dt>
-                  <dd>AMR navigation and NMPC</dd>
-                </div>
-                <div>
-                  <dt>03</dt>
-                  <dd>Real-time systems and EtherCAT</dd>
-                </div>
-              </dl>
             </div>
-            <a
-              className={styles.demoVisual}
-              href="https://cmaybe.github.io/modern-robotics-wasm/"
-              aria-label="Open the Modern Robotics WASM demo">
-              <img
-                src="https://raw.githubusercontent.com/CMaybe/modern-robotics-wasm/main/docs/demo-preview.jpg"
-                alt="Modern Robotics WebGL robot arm viewer"
-              />
-              <span className={styles.demoLabel}>Live interactive demo</span>
-              <span className={styles.demoCaption}>Modern Robotics WASM</span>
-            </a>
+
+            <aside className={styles.infoPanel}>
+              <div className={styles.panelHeader}>
+                <img
+                  className={styles.avatar}
+                  src="/img/profile-bird.jpg"
+                  alt="Profile illustration"
+                />
+                <div>
+                  <p className={styles.name}>Jaegyeom Kim</p>
+                  <span className={styles.role}>Robotics &amp; Controls</span>
+                </div>
+              </div>
+
+              <p className={styles.panelText}>
+                Interested in the intersection of mathematics, real-time software, and embodied
+                intelligence.
+              </p>
+
+              <div className={styles.chipList}>
+                {interests.map((item) => (
+                  <span key={item}>{item}</span>
+                ))}
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section className={styles.about}>
+          <div className={styles.sectionHeading}>
+            <p className={styles.kicker}>About</p>
+            <h2>Focused on systems that move with intent.</h2>
+          </div>
+
+          <div className={styles.aboutGrid}>
+            <div className={styles.aboutText}>
+              <p>
+                My work spans trajectory optimization, robot kinematics and dynamics, and embedded
+                control systems for autonomous motion. I care about how algorithms behave under
+                uncertainty, constraints, and real-world timing.
+              </p>
+              <p>
+                I aim to build practical software that is mathematically grounded, robust in
+                deployment, and understandable to the engineers who maintain it.
+              </p>
+            </div>
+
+            <div className={styles.statList}>
+              <div>
+                <strong>01</strong>
+                <span>Optimization-based planning</span>
+              </div>
+              <div>
+                <strong>02</strong>
+                <span>Autonomous vehicle control</span>
+              </div>
+              <div>
+                <strong>03</strong>
+                <span>Realtime robotics software</span>
+              </div>
+            </div>
           </div>
         </section>
 
         <section className={styles.projects}>
           <div className={styles.sectionHeading}>
-            <p className={styles.kicker}>SELECTED WORK</p>
-            <h2>Control systems with a point of view.</h2>
-            <a href="https://github.com/CMaybe">All repositories</a>
+            <p className={styles.kicker}>Selected work</p>
+            <h2>Recent projects and research.</h2>
           </div>
+
           <div className={styles.projectGrid}>
             {projects.map((project) => (
               <a
-                className={`${styles.project} ${project.featured ? styles.featuredProject : ''}`}
+                className={`${styles.projectCard} ${project.featured ? styles.featured : ''}`}
                 href={project.href}
                 key={project.title}>
                 <p>{project.tags}</p>
                 <h3>{project.title}</h3>
                 <span>{project.detail}</span>
-                <strong>View source</strong>
+                <strong>View project</strong>
               </a>
             ))}
           </div>
         </section>
 
-        <section className={styles.writing}>
-          <p className={styles.kicker}>THE NOTEBOOK</p>
-          <h2>Working notes on the systems behind the motion.</h2>
-          <p>
-            Build logs, derivations, implementation decisions, and lessons from robotics software.
-          </p>
-          <Link className={styles.writingLink} to="/blog">
-            Browse the blog
-          </Link>
+        <section className={styles.follow}>
+          <div className={styles.sectionHeading}>
+            <p className={styles.kicker}>Follow</p>
+            <h2>Research, code, and notes.</h2>
+          </div>
+
+          <div className={styles.linkRow}>
+            {socialLinks.map((link) =>
+              link.href.startsWith('http') ? (
+                <a key={link.label} href={link.href}>
+                  {link.label}
+                </a>
+              ) : (
+                <Link key={link.label} to={link.href}>
+                  {link.label}
+                </Link>
+              ),
+            )}
+          </div>
         </section>
       </main>
     </Layout>
