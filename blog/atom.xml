@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com/blog</id>
-    <title>CMaybe's blog Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <id>https://cmaybe.github.io/blog</id>
+    <title>JaeGyeom Kim Blog</title>
+    <updated>2026-09-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com/blog"/>
-    <subtitle>CMaybe's blog Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
+    <link rel="alternate" href="https://cmaybe.github.io/blog"/>
+    <subtitle>JaeGyeom Kim Blog</subtitle>
+    <icon>https://cmaybe.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Modern Robotics in the Browser]]></title>
+        <id>https://cmaybe.github.io/blog/modern-robotics-wasm</id>
+        <link href="https://cmaybe.github.io/blog/modern-robotics-wasm"/>
+        <updated>2026-09-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A WebGL and WebAssembly playground for forward kinematics, inverse kinematics, planning, and dynamics.]]></summary>
+        <content type="html"><![CDATA[<p>Modern robotics algorithms become easier to reason about when their inputs and
+outputs are visible. This project puts a C++ kinematics and control stack in the
+browser, so a robot can be inspected, moved, and planned for without a local
+simulation setup.</p>
+<iframe src="https://cmaybe.github.io/modern-robotics-wasm/" title="Modern Robotics WASM interactive viewer" style="width:100%;height:760px;border:0"></iframe>
+<p>The interactive viewer supports UR5 and Franka Research 3 arms. Joint sliders
+drive forward kinematics, while the end-effector gizmo supplies targets to the
+inverse-kinematics solver. The same interface also exposes collision capsules,
+manipulability ellipsoids, motion planning with RRT-Connect, and Newton-Euler
+dynamics.</p>
+<p>The computational path remains in C++: Eigen and Sophus implement the
+space-frame Product of Exponentials formulation, Emscripten compiles it to
+WebAssembly, and React with three.js provides the visual interface.</p>
+<p>The source and implementation notes are available in the
+<a href="https://github.com/CMaybe/modern-robotics-wasm" target="_blank" rel="noopener noreferrer" class="">modern-robotics-wasm repository</a>.</p>]]></content>
+        <author>
+            <name>JaeGyeom Kim</name>
+            <uri>https://github.com/CMaybe</uri>
+        </author>
+        <category label="Robotics" term="Robotics"/>
+        <category label="Kinematics" term="Kinematics"/>
+        <category label="WebAssembly" term="WebAssembly"/>
+        <category label="Motion Planning" term="Motion Planning"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/welcome</id>
-        <link href="https://your-docusaurus-site.example.com/blog/welcome"/>
+        <id>https://cmaybe.github.io/blog/welcome</id>
+        <link href="https://cmaybe.github.io/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
         <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer" class="">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer" class="">blog plugin</a>.</p>
@@ -23,7 +53,7 @@
 <li class=""><code>2019-05-30-welcome/index.md</code></li>
 </ul>
 <p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://your-docusaurus-site.example.com/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://cmaybe.github.io/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
 <p>The blog supports tags as well!</p>
 <p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
         <author>
@@ -40,8 +70,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/mdx-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/mdx-blog-post"/>
+        <id>https://cmaybe.github.io/blog/mdx-blog-post</id>
+        <link href="https://cmaybe.github.io/blog/mdx-blog-post"/>
         <updated>2021-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
         <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer" class="">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer" class="">MDX</a>.</p>
@@ -58,8 +88,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/long-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/long-blog-post"/>
+        <id>https://cmaybe.github.io/blog/long-blog-post</id>
+        <link href="https://cmaybe.github.io/blog/long-blog-post"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
         <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
@@ -89,8 +119,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/first-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/first-blog-post"/>
+        <id>https://cmaybe.github.io/blog/first-blog-post</id>
+        <link href="https://cmaybe.github.io/blog/first-blog-post"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
