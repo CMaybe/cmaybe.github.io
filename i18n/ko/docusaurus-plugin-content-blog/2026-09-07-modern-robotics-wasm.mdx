@@ -1,0 +1,23 @@
+---
+slug: modern-robotics-wasm
+title: 브라우저에서 만나는 Modern Robotics
+authors: [endi]
+tags: [robotics, kinematics, webassembly, motion-planning]
+description: 순기구학, 역기구학, 플래닝, 동역학을 실행해 볼 수 있는 WebGL 및 WebAssembly 플레이그라운드입니다.
+---
+
+현대 로봇공학 알고리즘은 입력과 출력을 직접 확인할 수 있을 때 이해하기 쉽습니다. 이 프로젝트는 C++ 기구학 및 제어 스택을 브라우저에 올려, 로컬 시뮬레이션 환경을 설정하지 않아도 로봇을 살펴보고 움직이며 경로를 계획할 수 있게 합니다.
+
+<!-- truncate -->
+
+<iframe
+  src="https://cmaybe.github.io/modern-robotics-wasm/"
+  title="Modern Robotics WASM interactive viewer"
+  style={{width: '100%', height: '760px', border: 0}}
+/>
+
+이 인터랙티브 뷰어는 UR5와 Franka Research 3 로봇 팔을 지원합니다. 관절 슬라이더로 순기구학을 실행할 수 있고, 말단 장치 기즈모로 역기구학 솔버에 목표를 전달할 수 있습니다. 같은 인터페이스에서 충돌 캡슐, 조작성 타원체, RRT-Connect를 이용한 모션 플래닝, Newton-Euler 동역학도 확인할 수 있습니다.
+
+계산 과정은 C++로 구현되어 있습니다. Eigen과 Sophus가 공간 좌표계 Product of Exponentials 정식화를 구현하고, Emscripten이 이를 WebAssembly로 컴파일하며, React와 three.js가 시각적 인터페이스를 제공합니다.
+
+소스 코드와 구현 노트는 [modern-robotics-wasm 저장소](https://github.com/CMaybe/modern-robotics-wasm)에서 확인할 수 있습니다.
