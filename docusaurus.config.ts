@@ -37,7 +37,17 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ko'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        htmlLang: 'en-US',
+      },
+      ko: {
+        label: '한국어',
+        htmlLang: 'ko-KR',
+      },
+    },
   },
 
   presets: [
@@ -104,6 +114,10 @@ const config: Config = {
         src: '/img/profile-bird.jpg',
       },
       items: [
+        {
+          type: 'localeDropdown',
+          position: 'left',
+        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
