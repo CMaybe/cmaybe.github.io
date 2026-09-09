@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-4
 title: Modern Robotics, Part 4 — Manipulability와 속도 제어
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]

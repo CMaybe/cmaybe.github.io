@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-6
 title: Modern Robotics, Part 6A — Dynamics, Control, and Motion Generation
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, motion-planning]

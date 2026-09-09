@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-1
 title: Modern Robotics, Part 1 - 강체 운동과 지수 곱 공식
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]

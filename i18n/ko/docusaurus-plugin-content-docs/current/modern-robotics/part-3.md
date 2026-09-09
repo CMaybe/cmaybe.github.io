@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-3
 title: Modern Robotics, Part 3 — Jacobian과 말단 장치 속도
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]

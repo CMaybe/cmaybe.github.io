@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-2b
 title: Modern Robotics, Part 2B — Frames, Lie Groups, and the Jacobian Bridge
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]

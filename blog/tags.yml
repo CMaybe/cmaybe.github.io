@@ -18,6 +18,41 @@ motion-planning:
   permalink: /motion-planning
   description: Algorithms for finding feasible robot motion.
 
+autonomous-driving:
+  label: Autonomous Driving
+  permalink: /autonomous-driving
+  description: Planning and control for autonomous vehicles.
+
+optimal-parking:
+  label: Optimal Parking
+  permalink: /optimal-parking
+  description: Vehicle parking through sampling-based planning and trajectory optimization.
+
+rrt:
+  label: RRT*
+  permalink: /rrt
+  description: Sampling-based motion planning with asymptotic path improvement.
+
+trajectory-optimization:
+  label: Trajectory Optimization
+  permalink: /trajectory-optimization
+  description: Refining motion sequences under dynamics and constraint limits.
+
+optimal-control:
+  label: Optimal Control
+  permalink: /optimal-control
+  description: Selecting controls that balance goals, effort, and feasibility.
+
+collision-avoidance:
+  label: Collision Avoidance
+  permalink: /collision-avoidance
+  description: Maintaining safe clearance from obstacles during motion.
+
+'c++':
+  label: C++
+  permalink: /c++
+  description: C++ implementations of robotics algorithms and systems.
+
 modern-robotics:
   label: Modern Robotics
   permalink: /modern-robotics

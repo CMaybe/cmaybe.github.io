@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-5
 title: Modern Robotics, Part 5 — Inverse Kinematics and Numerical Solvers
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]

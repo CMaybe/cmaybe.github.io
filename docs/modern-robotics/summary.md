@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-series-summary
 title: Modern Robotics Series Summary - From Geometry to Control and Planning
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
@@ -28,7 +27,7 @@ The first step, then, is to view a robot not as a collection of assembled links,
 
 Related reading:
 
-- [Modern Robotics, Part 1 — Rigid-Body Motion and the Product of Exponentials](/blog/modern-robotics-part-1)
+- [Modern Robotics, Part 1 — Rigid-Body Motion and the Product of Exponentials](/notes/modern-robotics/part-1)
 
 ## 2. Basic Building Blocks: Twists and Screw Axes
 
@@ -56,8 +55,8 @@ In other words, a joint is a motion generator, not just a scalar variable.
 
 Related reading:
 
-- [Modern Robotics, Part 2A — Screw Axes, Twists, and the Exponential Map](/blog/modern-robotics-part-2)
-- [Modern Robotics, Part 2B — Frames, Lie Groups, and the Jacobian Bridge](/blog/modern-robotics-part-2b)
+- [Modern Robotics, Part 2A — Screw Axes, Twists, and the Exponential Map](/notes/modern-robotics/part-2a)
+- [Modern Robotics, Part 2B — Frames, Lie Groups, and the Jacobian Bridge](/notes/modern-robotics/part-2b)
 
 ## 3. Finite Motion: The Exponential Map
 
@@ -100,8 +99,8 @@ This perspective lets us understand:
 
 Related reading:
 
-- [Modern Robotics, Part 3 — Jacobians and End-Effector Velocity](/blog/modern-robotics-part-3)
-- [Modern Robotics, Part 4 — Manipulability and Velocity Control](/blog/modern-robotics-part-4)
+- [Modern Robotics, Part 3 — Jacobians and End-Effector Velocity](/notes/modern-robotics/part-3)
+- [Modern Robotics, Part 4 — Manipulability and Velocity Control](/notes/modern-robotics/part-4)
 
 ## 5. Inverse Kinematics: Finding Joint Values for a Target Pose
 
@@ -137,7 +136,7 @@ This allows the robot to maintain the primary task while improving its internal 
 
 Related reading:
 
-- [Modern Robotics, Part 5 — Inverse Kinematics and Numerical Solvers](/blog/modern-robotics-part-5)
+- [Modern Robotics, Part 5 — Inverse Kinematics and Numerical Solvers](/notes/modern-robotics/part-5)
 
 ## 6. Dynamics and Trajectory Generation: Real Robots Do More Than Match a Pose
 
@@ -163,8 +162,8 @@ Trajectory generation is not simply a matter of specifying target poses; it is t
 
 Related reading:
 
-- [Modern Robotics, Part 6A — Dynamics, Control, and Motion Generation](/blog/modern-robotics-part-6)
-- [Modern Robotics, Part 6B — Trajectories, Constraints, and Motion Planning](/blog/modern-robotics-part-6b)
+- [Modern Robotics, Part 6A — Dynamics, Control, and Motion Generation](/notes/modern-robotics/part-6a)
+- [Modern Robotics, Part 6B — Trajectories, Constraints, and Motion Planning](/notes/modern-robotics/part-6b)
 
 ## 7. The Complete Flow in a Single Set of Equations
 

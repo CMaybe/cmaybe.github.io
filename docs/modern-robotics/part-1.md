@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-1
 title: Modern Robotics, Part 1 — Rigid-Body Motion and the Product of Exponentials
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]

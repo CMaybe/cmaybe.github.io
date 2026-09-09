@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-2b
 title: Modern Robotics, Part 2B — 좌표계, Lie group, 그리고 Jacobian의 연결
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]

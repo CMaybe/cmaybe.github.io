@@ -2,23 +2,22 @@
 sidebar_position: 1
 ---
 
-# Modern Robotics
+# Notes
 
-이 문서는 Modern Robotics에 관한 체계적인 노트 모음의 시작점입니다.
+로봇 소프트웨어, 모션 플래닝, 최적제어, 실시간 시스템에 관한 기술 노트의
+시작점입니다.
 
-각 글은 블로그 게시물로 공개하며, 이 사이드바에서는 글에서 다루는 개념을 기준으로 순서를 정리합니다.
+각 프로젝트는 별도의 읽기 경로를 가집니다. 사이드바에서도 프로젝트별로
+그룹을 나누어 새로운 시리즈를 추가할 때 기존 챕터와 섞이지 않도록 했습니다.
 
-## 이 시리즈를 읽는 방법
+## 프로젝트
 
-Part 1부터 Part 6B까지 순서대로 읽는 것을 권장합니다. 사이드바의 그룹은 개념적 구조를 보여 줍니다.
+- [Modern Robotics](/notes/modern-robotics): 강체 운동, 기구학, 동역학,
+  모션 플래닝을 다룹니다.
+- [Optimal Parking](/notes/optimal-parking): 차량 모델, RRT*, 최적제어,
+  궤적 최적화, WebAssembly를 다룹니다.
 
-- **Foundations**에서는 강체 변환, twist, screw axis, Lie group의 언어를 만듭니다.
-- **Kinematics and Control**에서는 Jacobian, manipulability, inverse kinematics를 전개합니다.
-- **Dynamics and Planning**에서는 기구학 모델을 trajectory, control, motion planning과 연결합니다.
+## 읽는 방법
 
-시리즈 요약은 전체 주제의 간결한 지도를 제공하며, Modern Robotics WASM 글에서는 이론을 실행 가능한 구현과 연결합니다.
-
-
-## Demo
-
-[Modern Robotics WASM demo](https://cmaybe.github.io/modern-robotics-wasm/)
+각 프로젝트 페이지에서 권장 순서와 실제 구현으로 연결되는 설명을 확인할 수
+있습니다.

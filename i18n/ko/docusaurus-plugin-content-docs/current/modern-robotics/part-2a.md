@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-2
 title: Modern Robotics, Part 2A - 나선축, Twist, 그리고 지수 사상
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]

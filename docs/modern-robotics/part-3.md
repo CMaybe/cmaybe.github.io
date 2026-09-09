@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-3
 title: Modern Robotics, Part 3 — Jacobians and End-Effector Velocity
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]

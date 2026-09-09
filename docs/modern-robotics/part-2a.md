@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-2
 title: Modern Robotics, Part 2A — Screw Axes, Twists, and the Exponential Map
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]

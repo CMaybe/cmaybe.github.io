@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-5
 title: Modern Robotics, Part 5 — 역기구학과 수치 해법
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]

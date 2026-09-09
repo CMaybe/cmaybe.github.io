@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-6b
 title: Modern Robotics, Part 6B — Trajectory, 제약, 그리고 Motion Planning
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, motion-planning]

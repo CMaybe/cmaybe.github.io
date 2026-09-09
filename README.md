@@ -59,6 +59,12 @@ npm run typecheck
 - The homepage is implemented in `src/pages/index.tsx` and styled by
 	`src/pages/index.module.css`.
 
+Notes are organized by project under the `Projects` section of the docs
+sidebar. Add a project hub in `docs/`, then add its chapters inside a
+project-specific sidebar category in `sidebars.ts`. Keep evergreen conceptual
+chapters in the project notes and use `blog/` for dated experiments, progress
+updates, and announcements.
+
 The Modern Robotics post embeds the independently deployed web application with
 an iframe. Keep the application deployment separate from this repository, then
 reference its public Pages URL from the post.

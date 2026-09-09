@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-part-6
 title: Modern Robotics, Part 6A — 동역학, 제어, 그리고 운동 생성
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, motion-planning]

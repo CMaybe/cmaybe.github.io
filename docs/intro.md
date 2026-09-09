@@ -2,24 +2,24 @@
 sidebar_position: 1
 ---
 
-# Modern Robotics
+# Notes
 
-This is the entry point for a structured set of notes on modern robotics.
+This is the entry point for technical notes on robotics software, motion planning,
+optimal control, and real-time systems.
 
-The articles are published as blog posts, while this sidebar organizes them by the concepts they develop.
+Each project has its own reading path. The sidebar groups projects separately so
+new series can be added without mixing their chapters together.
 
-## How to read this series
+## Projects
 
-The recommended sequence is Part 1 through Part 6B. The groups in the sidebar show the conceptual structure:
+- [Modern Robotics](/notes/modern-robotics): rigid-body motion, kinematics,
+	dynamics, and motion planning.
+- [Optimal Parking](/notes/optimal-parking): vehicle modeling, RRT*, optimal
+	control, trajectory optimization, and WebAssembly.
 
-- **Foundations** builds the language of rigid transforms, twists, screw axes, and Lie groups.
-- **Kinematics and Control** develops Jacobians, manipulability, and inverse kinematics.
-- **Dynamics and Planning** connects the kinematic model to trajectories, control, and motion planning.
+## Reading paths
 
-The series summary gives a compact map of the whole subject, while the Modern Robotics WASM post connects the theory to an executable implementation.
+The project pages explain the recommended order and connect the concepts to
+working implementations.
 
-
-## Demo
-
-[Modern Robotics WASM demo](https://cmaybe.github.io/modern-robotics-wasm/)
 

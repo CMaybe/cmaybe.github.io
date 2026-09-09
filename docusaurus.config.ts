@@ -59,10 +59,12 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl:
             'https://github.com/CMaybe/cmaybe.github.io/tree/main/',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: {
           showReadingTime: true,
-          blogSidebarTitle: 'Modern Robotics',
+          blogSidebarTitle: 'Posts',
           blogSidebarCount: 20,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -122,9 +124,8 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Modern Robotics',
+          label: 'Notes',
         },
-        { to: '/blog', label: 'Posting', position: 'left' },
         {
           href: 'https://github.com/CMaybe',
           label: 'GitHub',

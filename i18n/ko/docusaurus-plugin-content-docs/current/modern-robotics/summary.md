@@ -1,5 +1,4 @@
 ---
-slug: modern-robotics-series-summary
 title: Modern Robotics 시리즈 정리 - Geometry, Control, Planning
 authors: [endi]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
