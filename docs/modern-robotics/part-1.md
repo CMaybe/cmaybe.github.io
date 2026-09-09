@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 1 — Rigid-Body Motion and the Product of Exponentials
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: A mathematically grounded introduction to Modern Robotics, covering rigid-body motion, twists, screw axes, and the Product of Exponentials formulation behind robot kinematics.
 ---
@@ -103,7 +103,7 @@ $$
 \dot{T} = \xi \dot{\theta} T
 $$
 
-or, depending on frame convention,
+or, depjaegyeomng on frame convention,
 
 $$
 \dot{T} = T \hat{\xi}.
@@ -204,7 +204,7 @@ where $\nu$ is the twist of the end effector and $J(\theta)$ is the Jacobian.
 
 The Jacobian tells us how small changes in joint variables affect the end-effector velocity. This is the key link between robot configuration and motion in space.
 
-Depending on convention, we distinguish between:
+Depjaegyeomng on convention, we distinguish between:
 
 - the spatial Jacobian $J_s$,
 - the body Jacobian $J_b$.

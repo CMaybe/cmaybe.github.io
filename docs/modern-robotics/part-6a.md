@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 6A — Dynamics, Control, and Motion Generation
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, motion-planning]
 description: A deep-dive connecting kinematics, twist-based motion generation, and dynamics to task-space control and robot motion generation.
 ---

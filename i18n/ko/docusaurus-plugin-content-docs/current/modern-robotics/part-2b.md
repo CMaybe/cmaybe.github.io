@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 2B — 좌표계, Lie group, 그리고 Jacobian의 연결
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: 나선축 이론의 도입을 이어서 spatial frame과 body frame, Lie group/Lie algebra의 직관, 그리고 Jacobian 구성과의 연결을 살펴봅니다.
 ---

@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 5 — 역기구학과 수치 해법
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: Jacobian 기반 방법, 해석적 해법, 반복 수치 전략을 사용해 로봇 pose를 구하는 역기구학을 자세히 설명합니다.
 ---

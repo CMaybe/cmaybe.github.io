@@ -1,0 +1,22 @@
+---
+title: Optimal Parking in the Browser
+authors: [jaegyeom]
+tags: [optimal-control, motion-planning, webassembly]
+description: An interactive browser page for geometric planning and optimal parking trajectory generation.
+---
+
+Optimal parking is easier to understand when the planned route and optimized vehicle motion are visible. This page puts the parking planner in the browser, so the route, vehicle state, and obstacle constraints can be inspected without a local simulator setup.
+
+<!-- truncate -->
+
+<iframe
+  src="https://cmaybe.github.io/Optimal-Parking/"
+  title="Optimal Parking interactive viewer"
+  style={{width: '100%', height: '760px', border: 0}}
+/>
+
+The interactive viewer combines a collision-free route from RRT* with trajectory optimization. The vehicle follows the planned path while the optimizer accounts for the vehicle model, input bounds, obstacle margins, and terminal parking conditions.
+
+The computational path remains in C++: the planner and quadratic-programming stages are compiled for the browser, while the page provides the interactive visualization and controls.
+
+The theory and implementation are developed in the [Optimal-Parking repository](https://github.com/CMaybe/Optimal-Parking). Start with [Part 1](part-1) for the problem and vehicle model, then follow the series through planning, optimal control, and trajectory optimization.

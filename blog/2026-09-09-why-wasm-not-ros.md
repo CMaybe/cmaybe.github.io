@@ -1,7 +1,7 @@
 ---
 slug: why-wasm-not-ros
 title: Why WebAssembly Instead of ROS or ROS 2?
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, webassembly, modern-robotics]
 description: Why this blog uses WebAssembly for an interactive browser demo instead of ROS or ROS 2.
 ---

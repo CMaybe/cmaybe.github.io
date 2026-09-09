@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 3 — Jacobian과 말단 장치 속도
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: Screw axis와 twist에서 Jacobian을 유도하고, 관절 속도로 말단 장치 속도를 계산하는 방법과 singularity가 발생하는 이유를 자세히 설명합니다.
 ---
@@ -46,7 +46,7 @@ $$
 답은 다음 Jacobian 관계입니다.
 
 $$
-\nu = J(\theta)\,\dot{\theta},
+\nu = J(\theta) \dot{\theta},
 $$
 
 여기서 $\nu$는 말단 장치 twist이고 $J(\theta)$는 Jacobian 행렬입니다.
@@ -239,11 +239,13 @@ $$
 
 $$
 \begin{bmatrix}
-\dot{x} \\\ \dot{y}
+\dot{x} \\
+\dot{y}
 \end{bmatrix}
 =
 \begin{bmatrix}
-- L_1\sin\theta_1 - L_2\sin(\theta_1+\theta_2) & -L_2\sin(\theta_1+\theta_2) \\\nL_1\cos\theta_1 + L_2\cos(\theta_1+\theta_2) & L_2\cos(\theta_1+\theta_2)
+- L_1\sin\theta_1 - L_2\sin(\theta_1+\theta_2) & -L_2\sin(\theta_1+\theta_2) \\
+L_1\cos\theta_1 + L_2\cos(\theta_1+\theta_2) & L_2\cos(\theta_1+\theta_2)
 \end{bmatrix}
 \begin{bmatrix}
 \dot{\theta}_1 \\\ \dot{\theta}_2
@@ -281,7 +283,8 @@ Jacobian의 각 열은 한 관절이 만드는 순간 운동에 대응합니다.
 $$
 \mathcal{S}_i =
 \begin{bmatrix}
-\omega_i \\\n-\omega_i \times q_i
+\omega_i \\
+-\omega_i \times q_i
 \end{bmatrix},
 $$
 
@@ -292,7 +295,8 @@ $$
 $$
 \mathcal{S}_i =
 \begin{bmatrix}
-0 \\\n v_i
+0 \\
+v_i
 \end{bmatrix},
 $$
 

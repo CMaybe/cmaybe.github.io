@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking, Part 1 - 문제 정의와 Kinematic Bicycle Model
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, autonomous-driving, motion-planning, optimal-parking]
 description: 주차 문제의 상태와 입력 변수, 그리고 플래너가 사용하는 5상태 운동학적 자전거 모델을 설명합니다.
 ---

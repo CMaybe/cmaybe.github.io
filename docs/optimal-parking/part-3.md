@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking, Part 3 - Optimal Control and Trajectory Optimization
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, optimal-control, trajectory-optimization, optimal-parking]
 description: The optimal-control formulation behind parking trajectories, including cost functions, constraints, MPC, and the role of SQP.
 ---

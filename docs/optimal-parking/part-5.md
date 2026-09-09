@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking, Part 5 - Obstacles, Bounds, and Feasibility
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, motion-planning, optimal-control, collision-avoidance]
 description: How vehicle bounds, input limits, obstacle constraints, and penalties shape a feasible parking trajectory.
 ---

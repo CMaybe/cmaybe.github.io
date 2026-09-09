@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking, Part 2 - RRT* as an Initial Path Planner
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, autonomous-driving, motion-planning, rrt]
 description: Why RRT* is used to generate a collision-free geometric path before trajectory optimization.
 ---

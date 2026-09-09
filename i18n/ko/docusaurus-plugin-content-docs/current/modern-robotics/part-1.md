@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 1 - 강체 운동과 지수 곱 공식
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: 강체 운동, 비틀림, 나선축, 그리고 로봇 기구학의 지수 곱 공식을 다루는 Modern Robotics 입문 글입니다.
 ---

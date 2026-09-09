@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics Series Summary - From Geometry to Control and Planning
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: A compact summary of the full Modern Robotics series, connecting rigid-body motion, screw theory, Jacobians, inverse kinematics, dynamics, and motion planning into one coherent picture.
 ---

@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking Series Summary - From Sampling to Optimized Trajectory
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, autonomous-driving, motion-planning, trajectory-optimization]
 description: A compact map of the Optimal Parking planner, from the kinematic bicycle model and RRT* seed to sequential QP refinement and browser execution.
 ---
@@ -62,7 +62,7 @@ Read Parts 1 and 2 to establish the model and the initial path. Parts 3 and 4 ex
 
 - [Part 1 - Problem Definition and the Kinematic Bicycle Model](/notes/optimal-parking/part-1)
 - [Part 2 - RRT* as an Initial Path Planner](/notes/optimal-parking/part-2)
-- [Part 3 - Optimal Control and Trajectory Optimization](/notes/optimal-parking/part-3-optimal-control)
+- [Part 3 - Optimal Control and Trajectory Optimization](/notes/optimal-parking/part-3)
 - [Part 4 - Sequential Quadratic Programming](/notes/optimal-parking/part-4)
 - [Part 5 - Obstacles, Bounds, and Feasibility](/notes/optimal-parking/part-5)
 - [Part 6 - C++ Architecture and the WebAssembly Demo](/notes/optimal-parking/part-6)

@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking 시리즈 요약 - 샘플링에서 최적화 궤적까지
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, autonomous-driving, motion-planning, trajectory-optimization]
 description: 운동학적 자전거 모델과 RRT* 초기 경로부터 순차 QP 개선과 브라우저 실행까지 Optimal Parking 플래너를 요약합니다.
 ---
@@ -62,7 +62,7 @@ Part 1과 Part 2에서 모델과 초기 경로를 먼저 이해합니다. Part 3
 
 - [Part 1 - 문제 정의와 Kinematic Bicycle Model](/ko/notes/optimal-parking/part-1)
 - [Part 2 - 초기 경로 플래너로서의 RRT*](/ko/notes/optimal-parking/part-2)
-- [Part 3 - 최적제어와 궤적 최적화](/ko/notes/optimal-parking/part-3-optimal-control)
+- [Part 3 - 최적제어와 궤적 최적화](/ko/notes/optimal-parking/part-3)
 - [Part 4 - Sequential Quadratic Programming](/ko/notes/optimal-parking/part-4)
 - [Part 5 - 장애물, 범위, Feasibility](/ko/notes/optimal-parking/part-5)
 - [Part 6 - C++ 구조와 WebAssembly 데모](/ko/notes/optimal-parking/part-6)

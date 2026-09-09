@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics 시리즈 정리 - Geometry, Control, Planning
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: Modern Robotics 시리즈 전체를 강체 운동, screw theory, Jacobian, 역기구학, 동역학, 모션 플래닝의 흐름으로 정리합니다.
 ---

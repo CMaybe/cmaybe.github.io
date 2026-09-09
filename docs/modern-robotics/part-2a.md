@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 2A — Screw Axes, Twists, and the Exponential Map
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: A detailed mathematical walkthrough of screw axes, twists, and the exponential map in Modern Robotics, forming the basis for robot kinematics and Jacobian computation.
 ---
@@ -253,7 +253,7 @@ J(\theta) = \begin{bmatrix}
 \end{bmatrix},
 $$
 
-with the axes transformed into the correct frame depending on the chosen formulation.
+with the axes transformed into the correct frame depjaegyeomng on the chosen formulation.
 
 In other words, the Jacobian is not an arbitrary matrix; it is built from the motion directions of the joints. This is one of the most insightful conceptual points in Modern Robotics.
 

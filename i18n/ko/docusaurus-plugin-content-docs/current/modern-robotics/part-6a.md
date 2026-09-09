@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 6A — 동역학, 제어, 그리고 운동 생성
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, motion-planning]
 description: 기구학, twist 기반 운동 생성, 동역학을 task-space control과 로봇 운동 생성으로 연결해 자세히 살펴봅니다.
 ---

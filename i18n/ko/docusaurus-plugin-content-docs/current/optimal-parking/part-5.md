@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking, Part 5 - 장애물, 범위, Feasibility
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, motion-planning, optimal-control, collision-avoidance]
 description: 차량 범위, 입력 제한, 장애물 제약, 패널티가 실행 가능한 주차 궤적을 만드는 방식을 설명합니다.
 ---
