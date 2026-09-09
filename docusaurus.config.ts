@@ -126,6 +126,7 @@ const config: Config = {
           position: 'left',
           label: 'Notes',
         },
+        { to: '/blog', label: 'Posts', position: 'left' },
         {
           href: 'https://github.com/CMaybe',
           label: 'GitHub',

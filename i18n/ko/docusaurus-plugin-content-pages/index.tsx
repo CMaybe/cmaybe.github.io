@@ -41,7 +41,7 @@ export default function Home(): ReactNode {
           </p>
           <nav className={styles.nav} aria-label="주요 메뉴">
             <Link to="/notes/intro">노트</Link>
-            <Link to="/blog">포스팅</Link>
+            <Link to="/blog">Posts</Link>
             <a href="https://github.com/CMaybe">GitHub</a>
           </nav>
         </header>

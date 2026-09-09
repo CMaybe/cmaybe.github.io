@@ -41,7 +41,7 @@ export default function Home(): ReactNode {
           </p>
           <nav className={styles.nav} aria-label="Primary navigation">
             <Link to="/notes/intro">Notes</Link>
-            <Link to="/blog">Posting</Link>
+            <Link to="/blog">Posts</Link>
             <a href="https://github.com/CMaybe">GitHub</a>
           </nav>
         </header>

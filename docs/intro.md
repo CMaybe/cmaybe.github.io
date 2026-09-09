@@ -20,6 +20,7 @@ new series can be added without mixing their chapters together.
 ## Reading paths
 
 The project pages explain the recommended order and connect the concepts to
-working implementations.
+working implementations. Dated experiments and shorter updates are available
+in [Posts](/blog).
 
 
