@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktemp_dir=globalThis.webpackChunktemp_dir||[]).push([[7472],{5513(e){e.exports=JSON.parse('{"title":"Posts","items":[{"title":"Why WebAssembly Instead of ROS or ROS 2?","permalink":"/blog/why-wasm-not-ros","unlisted":false,"date":"2026-09-09T00:00:00.000Z"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktemp_dir=globalThis.webpackChunktemp_dir||[]).push([[7472],{5513(e){e.exports=JSON.parse('{"title":"Posts","items":[{"title":"\uc65c ROS/ROS 2 \ub300\uc2e0 WebAssembly\uc778\uac00","permalink":"/ko/blog/why-wasm-not-ros","unlisted":false,"date":"2026-09-09T00:00:00.000Z"}]}')}}]);
