@@ -161,10 +161,6 @@ const config: Config = {
               label: 'Buy Me a Coffee',
               href: 'https://buymeacoffee.com/cmaybe',
             },
-            {
-              label: 'Modern Robotics demo',
-              href: 'https://cmaybe.github.io/modern-robotics-wasm/',
-            },
           ],
         },
         {
