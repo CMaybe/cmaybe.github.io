@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking, Part 6 - C++ Architecture and the WebAssembly Demo
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, c++, webassembly, optimal-parking]
 description: How the native planner is organized and exposed through WebAssembly for interactive browser experiments.
 ---

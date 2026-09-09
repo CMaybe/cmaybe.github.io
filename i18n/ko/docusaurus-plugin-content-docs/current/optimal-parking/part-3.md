@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking, Part 3 - 최적제어와 궤적 최적화
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, optimal-control, trajectory-optimization, optimal-parking]
 description: 주차 궤적을 위한 최적제어 정식화와 비용 함수, 제약 조건, MPC, SQP의 역할을 설명합니다.
 ---

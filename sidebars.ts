@@ -112,7 +112,7 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: 'doc',
-                  id: 'optimal-parking/part-3-optimal-control',
+                  id: 'optimal-parking/part-3',
                 },
                 {
                   type: 'doc',
@@ -136,6 +136,10 @@ const sidebars: SidebarsConfig = {
                   type: 'doc',
                   id: 'optimal-parking/summary',
                   key: 'optimal-parking-series-summary',
+                },
+                {
+                  type: 'doc',
+                  id: 'optimal-parking/wasm',
                 },
               ],
             },

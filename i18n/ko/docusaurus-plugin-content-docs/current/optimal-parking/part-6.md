@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking, Part 6 - C++ 구조와 WebAssembly 데모
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, c++, webassembly, optimal-parking]
 description: 네이티브 플래너의 구조와 인터랙티브 브라우저 실험을 위해 WebAssembly로 노출하는 방식을 설명합니다.
 ---

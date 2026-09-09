@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking, Part 4 - Sequential Quadratic Programming
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, trajectory-optimization, optimal-control, optimal-parking]
 description: OSQP로 푸는 sequential quadratic program을 통해 초기 경로를 개선하는 과정을 설명합니다.
 ---

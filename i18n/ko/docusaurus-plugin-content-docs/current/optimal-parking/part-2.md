@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking, Part 2 - 초기 경로 플래너로서의 RRT*
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, autonomous-driving, motion-planning, rrt]
 description: 궤적 최적화에 앞서 RRT*로 충돌 없는 기하학적 경로를 만드는 이유를 설명합니다.
 ---

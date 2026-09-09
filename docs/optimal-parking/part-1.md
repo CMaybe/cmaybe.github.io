@@ -1,6 +1,6 @@
 ---
 title: Optimal Parking, Part 1 - Problem Definition and the Kinematic Bicycle Model
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, autonomous-driving, motion-planning, optimal-parking]
 description: The parking problem, its state and input variables, and the five-state kinematic bicycle model used by the planner.
 ---
