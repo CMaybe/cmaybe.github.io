@@ -16,6 +16,8 @@ new series can be added without mixing their chapters together.
 	dynamics, and motion planning.
 - [Optimal Parking](/notes/optimal-parking): vehicle modeling, RRT*, optimal
 	control, trajectory optimization, and WebAssembly.
+- [Convex MPC](/notes/convex-mpc): quadruped locomotion, model-predictive control,
+	simulation, and real-time systems.
 
 ## Reading paths
 

@@ -141,6 +141,54 @@ const sidebars: SidebarsConfig = {
             },
           ],
         },
+        {
+          type: 'category',
+          label: 'Convex MPC',
+          collapsed: true,
+          items: [
+            'convex-mpc',
+            {
+              type: 'category',
+              label: 'Foundations and Theory',
+              items: [
+                {
+                  type: 'doc',
+                  id: 'convex-mpc/part-1',
+                },
+                {
+                  type: 'doc',
+                  id: 'convex-mpc/part-2',
+                },
+                {
+                  type: 'doc',
+                  id: 'convex-mpc/part-3',
+                },
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Implementation and Practice',
+              items: [
+                {
+                  type: 'doc',
+                  id: 'convex-mpc/part-4',
+                },
+                {
+                  type: 'doc',
+                  id: 'convex-mpc/part-5',
+                },
+              ],
+            },
+            {
+              type: 'doc',
+              id: 'convex-mpc/summary',
+            },
+            {
+              type: 'doc',
+              id: 'convex-mpc/wasm',
+            },
+          ],
+        },
       ],
     },
   ],

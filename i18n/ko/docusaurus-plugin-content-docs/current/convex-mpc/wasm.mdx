@@ -1,0 +1,22 @@
+---
+title: 브라우저에서 만나는 Convex MPC
+authors: [endi]
+tags: [robotics, quadruped, mpc, webassembly]
+description: 볼록 모델 예측 제어와 사족 보행을 실행해 볼 수 있는 인터랙티브 WebAssembly 뷰어입니다.
+---
+
+Convex MPC는 계획된 힘과 그 결과로 나타나는 몸의 움직임을 직접 확인할 수 있을 때 이해하기 쉽습니다. 이 페이지에서는 사족 로봇 컨트롤러를 브라우저에서 실행하므로, 로컬 시뮬레이터를 설정하지 않아도 보행, 몸 상태, 지면 반력을 살펴볼 수 있습니다.
+
+<!-- truncate -->
+
+<iframe
+  src="https://cmaybe.github.io/Convex-MPC/"
+  title="Convex MPC quadruped locomotion viewer"
+  style={{width: '100%', height: '760px', border: 0}}
+/>
+
+인터랙티브 뷰어는 MuJoCo 기반 시뮬레이션에서 ANYmal C 모델과 볼록 MPC 컨트롤러를 실행합니다. 컨트롤러는 접지 일정과 마찰 제약을 만족하면서 유한 수평선에 걸쳐 지면 반력을 계획합니다. 뷰어에서는 로봇이 속도 명령을 추종하는 동안 보행, 몸의 움직임, 힘의 분포를 확인할 수 있습니다.
+
+계산 과정은 C++로 구현되어 있습니다. 단일 강체 모델과 응축된 QP를 Emscripten으로 WebAssembly에 컴파일하고, 브라우저에서는 시뮬레이션 화면과 인터랙티브 제어를 제공합니다.
+
+이론과 구현은 [Convex-MPC 저장소](https://github.com/CMaybe/Convex-MPC)에서 확인할 수 있습니다. [1부](part-1)에서 강체 동역학을 시작한 뒤 MPC 공식화와 보행 제어까지 시리즈를 따라가 보세요.

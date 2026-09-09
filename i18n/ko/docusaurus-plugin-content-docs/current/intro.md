@@ -16,6 +16,8 @@ sidebar_position: 1
   모션 플래닝을 다룹니다.
 - [Optimal Parking](/notes/optimal-parking): 차량 모델, RRT*, 최적제어,
   궤적 최적화, WebAssembly를 다룹니다.
+- [Convex MPC](/notes/convex-mpc): 사족 보행, 모델 예측 제어, 시뮬레이션,
+  실시간 시스템을 다룹니다.
 
 ## 읽는 방법
 
