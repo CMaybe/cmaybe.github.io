@@ -1,4 +1,130 @@
 .page {
+  background: #ffffff;
+  color: #111827;
+  margin: 0 auto;
+  max-width: 760px;
+  padding: 96px 24px 120px;
+}
+
+.header {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 48px;
+}
+
+.kicker {
+  color: #6b7280;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin: 0 0 16px;
+  text-transform: uppercase;
+}
+
+.header h1 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2.8rem, 8vw, 4.8rem);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1;
+  margin: 0;
+}
+
+.intro {
+  color: #4b5563;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 20px 0 0;
+  max-width: 560px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.nav a {
+  color: #111827;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.nav a:hover,
+.projects li a:hover .projectTitle {
+  color: #2563eb;
+}
+
+.projects {
+  padding-top: 48px;
+}
+
+.projects h2 {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  margin: 0 0 18px;
+  text-transform: uppercase;
+}
+
+.projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.projects li {
+  border-top: 1px solid #e5e7eb;
+}
+
+.projects li:last-child {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.projects li a {
+  align-items: baseline;
+  color: inherit;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  padding: 20px 0;
+  text-decoration: none;
+}
+
+.projectTitle {
+  flex: 0 0 220px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.25rem;
+}
+
+.projectDetail {
+  color: #6b7280;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-align: right;
+}
+
+@media screen and (max-width: 620px) {
+  .page {
+    padding: 64px 20px 80px;
+  }
+
+  .projects li a {
+    align-items: flex-start;
+    display: grid;
+    gap: 6px;
+  }
+
+  .projectTitle {
+    flex-basis: auto;
+  }
+
+  .projectDetail {
+    text-align: left;
+  }
+}
+.page {
   background: #f7f6f2;
   color: #111827;
 }
