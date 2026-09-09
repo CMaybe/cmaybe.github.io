@@ -1,0 +1,22 @@
+---
+title: Convex MPC in the Browser
+authors: [endi]
+tags: [robotics, quadruped, mpc, webassembly]
+description: An interactive WebAssembly viewer for convex model-predictive control and quadruped locomotion.
+---
+
+Convex MPC is easier to understand when the planned forces and resulting body motion are visible. This page puts the quadruped controller in the browser, so the gait, body state, and ground-reaction forces can be inspected without a local simulator setup.
+
+<!-- truncate -->
+
+<iframe
+  src="https://cmaybe.github.io/Convex-MPC/"
+  title="Convex MPC quadruped locomotion viewer"
+  style={{width: '100%', height: '760px', border: 0}}
+/>
+
+The interactive viewer runs the convex MPC controller on an ANYmal C model in a MuJoCo-based simulation. The controller plans ground-reaction forces over a finite horizon while respecting the contact schedule and friction constraints. The viewer exposes the resulting gait, body motion, and force distribution as the robot follows velocity commands.
+
+The computational path remains in C++: the single-rigid-body model and condensed QP are compiled with Emscripten to WebAssembly, while the browser provides the simulation view and interactive controls.
+
+The theory and implementation are developed in the [Convex-MPC repository](https://github.com/CMaybe/Convex-MPC). Start with [Part 1](part-1) for the rigid-body dynamics, then follow the series through the MPC formulation and gait control.
