@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 3 — Jacobians and End-Effector Velocity
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: A detailed derivation of the Jacobian from screw axes and twists, showing how end-effector velocity is computed from joint rates and why singularities arise.
 ---
@@ -46,7 +46,7 @@ what is the instantaneous twist of the end effector?
 The answer is the Jacobian relation
 
 $$
-\nu = J(\theta)\,\dot{\theta},
+\nu = J(\theta) \dot{\theta},
 $$
 
 where $\nu$ is the end-effector twist and $J(\theta)$ is the Jacobian matrix.
@@ -241,11 +241,13 @@ This can be written as
 
 $$
 \begin{bmatrix}
-\dot{x} \\\ \dot{y}
+\dot{x} \\
+\dot{y}
 \end{bmatrix}
 =
 \begin{bmatrix}
-- L_1\sin\theta_1 - L_2\sin(\theta_1+\theta_2) & -L_2\sin(\theta_1+\theta_2) \\\nL_1\cos\theta_1 + L_2\cos(\theta_1+\theta_2) & L_2\cos(\theta_1+\theta_2)
+- L_1\sin\theta_1 - L_2\sin(\theta_1+\theta_2) & -L_2\sin(\theta_1+\theta_2) \\
+L_1\cos\theta_1 + L_2\cos(\theta_1+\theta_2) & L_2\cos(\theta_1+\theta_2)
 \end{bmatrix}
 \begin{bmatrix}
 \dot{\theta}_1 \\\ \dot{\theta}_2
@@ -283,7 +285,8 @@ For a revolute joint,
 $$
 \mathcal{S}_i =
 \begin{bmatrix}
-\omega_i \\\n-\omega_i \times q_i
+\omega_i \\
+-\omega_i \times q_i
 \end{bmatrix},
 $$
 
@@ -294,7 +297,8 @@ For a prismatic joint,
 $$
 \mathcal{S}_i =
 \begin{bmatrix}
-0 \\\nv_i
+0 \\
+v_i
 \end{bmatrix},
 $$
 

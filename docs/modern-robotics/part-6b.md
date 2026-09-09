@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 6B — Trajectories, Constraints, and Motion Planning
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, motion-planning]
 description: A continuation of the kinematics-to-planning story, focused on trajectory generation, time scaling, constraints, and the geometry behind motion planning.
 ---

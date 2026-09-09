@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 4 — Manipulability and Velocity Control
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: A deeper look at Jacobian-based velocity control, manipulability measures, and pseudoinverse methods for achieving task-space motion under constraints.
 ---

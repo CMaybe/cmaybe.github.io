@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 6B — Trajectory, 제약, 그리고 Motion Planning
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, motion-planning]
 description: 기구학에서 planning으로 이어지는 흐름을 계속 살펴보며 trajectory 생성, time scaling, 제약, 그리고 motion planning 뒤의 기하를 다룹니다.
 ---

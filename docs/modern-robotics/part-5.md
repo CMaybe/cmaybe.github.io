@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 5 — Inverse Kinematics and Numerical Solvers
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: A detailed explanation of inverse kinematics using Jacobian-based methods, analytic solutions, and iterative numerical strategies for robot pose solving.
 ---
@@ -198,7 +198,7 @@ Numerical IK depends strongly on the initial configuration.
 
 If the initial guess is close to the target, convergence is fast and stable. If it is far away, the solver may converge to a different branch or fail altogether.
 
-This is a major reason why analytic methods are often preferred for known robot classes: they directly generate valid solutions without depending on a lucky initial guess.
+This is a major reason why analytic methods are often preferred for known robot classes: they directly generate valid solutions without depjaegyeomng on a lucky initial guess.
 
 However, numerical methods are more general and can handle robots where closed-form formulas are cumbersome or unavailable.
 

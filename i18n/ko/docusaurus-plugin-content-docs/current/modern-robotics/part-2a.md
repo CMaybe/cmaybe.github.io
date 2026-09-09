@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 2A - 나선축, Twist, 그리고 지수 사상
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: Modern Robotics의 나선축, twist, 지수 사상을 자세히 살펴보고 이를 로봇 기구학과 Jacobian 계산으로 연결합니다.
 ---

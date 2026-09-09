@@ -1,6 +1,6 @@
 ---
 title: Modern Robotics, Part 4 — Manipulability와 속도 제어
-authors: [endi]
+authors: [jaegyeom]
 tags: [robotics, modern-robotics, kinematics, screw-theory]
 description: Jacobian 기반 속도 제어, manipulability 측정, 제약이 있는 task-space 운동을 달성하기 위한 pseudoinverse 방법을 자세히 살펴봅니다.
 ---
